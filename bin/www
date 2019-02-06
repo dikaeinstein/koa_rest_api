@@ -1,0 +1,11 @@
+require('dotenv').config();
+
+const env = process.env.NODE_ENV;
+const appRoute = env === 'production' ? '../dist/app' : '../src/app';
+const app = require(appRoute);
+
+const PORT = process.env.PORT || 8181;
+
+app.listen(PORT, () => {
+  console.log(`Server listening on port: ${PORT}`);
+});
