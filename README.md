@@ -2,7 +2,7 @@
 
 Rest API built with Node.js, koa, postgres and knex.
 
-Me taking a shot at the awesomeness of Koa 😍 ❤️.
+Me taking a shot at the awesomeness of Koa and Knex 😍 ❤️.
 
 ## Run the app
 
